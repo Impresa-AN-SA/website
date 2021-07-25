@@ -1491,10 +1491,14 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #EE3636;
+  color: #EE3636; /*#EE3636*/
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #BEC1C8;
+}
+
+.contact .info-box a{
+  color: #444444;
 }
 
 .contact .info-box h3 {

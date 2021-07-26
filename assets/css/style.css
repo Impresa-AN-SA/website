@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  transition: all 0.4s;
+  transition: all 0.3s;
 }
 
 .back-to-top i {
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #354056;
   height: 40px;
   font-size: 14px;
-  transition: all 0.5s;
+  transition: all 0.3s;
   color: #fff;
   padding: 0;
 }
@@ -139,8 +139,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info i a {
   line-height: 0;
-  transition: 0.3s;
-  transition: 0.3s;
+  transition: 0.2s;
+  transition: 0.2s;
 }
 
 #topbar .contact-info i a:hover {
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 #topbar .social-links a {
   color: rgba(255, 255, 255, 0.7);
   line-height: 0;
-  transition: 0.3s;
+  transition: 0.2s;
   margin-left: 20px;
 }
 
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #fff;
-  transition: all 0.5s;
+  transition: all 0.2s;
   z-index: 997;
   height: 86px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #222222;
   white-space: nowrap;
-  transition: 0.3s;
+  transition: 0.2s;
   position: relative;
 }
 
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #EE3636;
   visibility: hidden;
   width: 0px;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .navbar .dropdown ul li {
@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   bottom: 0;
   background: rgba(9, 9, 9, 0.9);
-  transition: 0.3s;
+  transition: 0.2s;
   z-index: 999;
 }
 
@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .navbar-mobile a {
@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 10px 28px;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0.2s;
   color: #fff;
   background: #EE3636;
 }
@@ -504,7 +504,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-watch-video {
   font-size: 16px;
-  transition: 0.5s;
+  transition: 0.2s;
   margin-left: 25px;
   color: #222222;
   font-weight: 600;
@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-watch-video i {
   color: #EE3636;
   font-size: 32px;
-  transition: 0.3s;
+  transition: 0.2s;
   line-height: 0;
   margin-right: 8px;
 }
@@ -674,7 +674,7 @@ section {
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   border-radius: 8px;
   z-index: 1;
   border-bottom: 15px solid #EE3636;
@@ -689,7 +689,7 @@ section {
   left: 0;
   bottom: 0;
   top: 100%;
-  transition: all 0.3s;
+  transition: all 0.2s;
   z-index: -1;
 }
 
@@ -709,7 +709,7 @@ section {
   font-size: 48px;
   line-height: 1;
   color: #EE3636;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .featured-services .title {
@@ -788,7 +788,7 @@ section {
 
 /*--------------------------------------------------------------
 # Skills
---------------------------------------------------------------*/
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -822,6 +822,7 @@ section {
   transition: .9s;
   background-color: #EE3636;
 }
+--------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
 # Counts
@@ -880,7 +881,7 @@ section {
 
 .clients img {
   max-width: 45%;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
   display: inline-block;
   padding: 15px 0;
 }
@@ -902,7 +903,7 @@ section {
   text-align: center;
   border: 1px solid #e2eefd;
   padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
   background: #fff;
 }
 
@@ -917,13 +918,13 @@ section {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
 }
 
 .services .icon-box .icon i {
   color: #263F70;
   font-size: 28px;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
 }
 
 .services .icon-box h4 {
@@ -934,7 +935,7 @@ section {
 
 .services .icon-box h4 a {
   color: #222222;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.1s;
 }
 
 .services .icon-box p {
@@ -1074,7 +1075,7 @@ section {
   text-transform: uppercase;
   color: #444444;
   margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -1096,7 +1097,7 @@ section {
   right: 30px;
   bottom: 0;
   z-index: 3;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.2s;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
 }
@@ -1137,7 +1138,7 @@ section {
   text-align: center;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.2s;
 }
 
 .portfolio .portfolio-item .portfolio-links a {
@@ -1145,7 +1146,7 @@ section {
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
@@ -1248,12 +1249,12 @@ section {
   bottom: 30px;
   right: 0;
   opacity: 0;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
   text-align: center;
 }
 
 .team .member .social a {
-  transition: color 0.3s;
+  transition: color 0.2s;
   color: #222222;
   margin: 0 3px;
   padding-top: 7px;
@@ -1262,7 +1263,7 @@ section {
   height: 36px;
   background: rgba(16, 110, 234, 0.8);
   display: inline-block;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
   color: #fff;
 }
 
@@ -1389,7 +1390,7 @@ section {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .pricing .btn-buy:hover {
@@ -1442,7 +1443,7 @@ section {
   padding-left: 25px;
   cursor: pointer;
   color: #0d58ba;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .faq .faq-list i {
@@ -1589,7 +1590,7 @@ section {
   border: 0;
   padding: 10px 30px;
   color: #fff;
-  transition: 0.4s;
+  transition: 0.2s;
   border-radius: 4px;
 }
 
@@ -1668,7 +1669,7 @@ section {
   padding: 0 20px;
   background: #EE3636;
   color: #fff;
-  transition: 0.3s;
+  transition: 0.2s;
   border-radius: 0 4px 4px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -1743,7 +1744,7 @@ section {
 
 #footer .footer-top .footer-links ul a {
   color: #777777;
-  transition: 0.3s;
+  transition: 0.2s;
   display: inline-block;
   line-height: 1;
 }
@@ -1765,7 +1766,7 @@ section {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 #footer .footer-top .social-links a:hover {

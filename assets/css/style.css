@@ -1257,18 +1257,18 @@ section {
   transition: color 0.2s;
   color: #222222;
   margin: 0 3px;
-  padding-top: 7px;
+  padding-top: 6px;
   border-radius: 4px;
   width: 36px;
   height: 36px;
-  background: rgba(16, 110, 234, 0.8);
+  background: rgba(238, 54, 54, 0.8);
   display: inline-block;
   transition: ease-in-out 0.2s;
   color: #fff;
 }
 
 .team .member .social a:hover {
-  background: #3b8af2;
+  background: #EE3636;
 }
 
 .team .member .social i {

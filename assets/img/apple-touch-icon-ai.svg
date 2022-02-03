@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="180" viewBox="0 0 180 180">
+  <defs>
+    <filter id="AI" x="13.545" y="5.733" width="162.909" height="188.533" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-apple-touch-icon-ai">
+      <rect width="180" height="180"/>
+    </clipPath>
+  </defs>
+  <g id="apple-touch-icon-ai" clip-path="url(#clip-apple-touch-icon-ai)">
+    <rect id="Rettangolo_6" data-name="Rettangolo 6" width="180" height="180" rx="23" fill="#eee"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#AI)">
+      <path id="AI-2" data-name="AI" d="M1812.17,302.533l-31.9-76.878h-32.729v-55.3l-52.8,98.74H1687L1754.136,144l3.275,7.89v0l27.394,66.03h35.1l-6.6,7.733h-25.3l31.9,76.878Zm-35.114-84.612-16.548-39.875v39.875Z" transform="translate(-1663.45 -133.27)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="AI" x="-5.814" y="-3.092" width="53.628" height="58.184" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-favicon-ai">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="favicon-ai" clip-path="url(#clip-favicon-ai)">
+    <rect id="Rettangolo_6" data-name="Rettangolo 6" width="32" height="32" rx="4" fill="#eee"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#AI)">
+      <path id="AI-2" data-name="AI" d="M22.253,28.184,16.581,14.516H10.762V4.686L1.376,22.24H0L11.935,0l.582,1.4h0l4.87,11.739h6.241l-1.173,1.375h-4.5l5.67,13.667ZM16.01,13.142,13.068,6.053v7.089Z" transform="translate(4.19 1.91)"/>
+    </g>
+  </g>
+</svg>

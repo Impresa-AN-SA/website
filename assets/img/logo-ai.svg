@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="59" viewBox="0 0 150 59">
+  <defs>
+    <clipPath id="clip-logo-ai">
+      <rect width="150" height="59"/>
+    </clipPath>
+  </defs>
+  <g id="logo-ai" clip-path="url(#clip-logo-ai)">
+    <text id="NGEMI" transform="translate(53 59)" font-size="15" font-family="Futura-Bold, Futura" font-weight="700"><tspan x="0" y="0">NGEMI</tspan></text>
+    <path id="Unione_4" data-name="Unione 4" d="M45.884,59l-11.7-28.611h-12V9.809L2.836,46.557H0L24.611,0l1.2,2.937h0L35.853,27.511H150l-2.419,2.878H37.029L48.721,59ZM33.013,27.511l-6.066-14.84v14.84Z"/>
+    <text id="NFRASTRUTTURE" transform="translate(38 24)" font-size="9" font-family="Futura-Bold, Futura" font-weight="700"><tspan x="0" y="0">NFRASTRUTTURE</tspan></text>
+  </g>
+</svg>

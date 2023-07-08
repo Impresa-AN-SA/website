@@ -1,0 +1,81 @@
+{
+   "name": "Gruppo ANGEMI",
+   "website": "https://gruppoangemi.it",
+   "email": "info@gruppoangemi.it",
+   "company": [
+      {
+         "name": "Impresa AN.SA",
+         "address": "Contrada Manche Saverino",
+         "cap": "94017",
+         "city": "Regalbuto",
+         "province": "EN",
+         "phone": "#",
+         "fax": "#",
+         "email": "#",
+         "pec": "#",
+         "piva": "#",
+         "social": [
+            {
+               "name": "LinkedIn",
+               "url": "#"
+            },
+            {
+               "name": "Google Maps",
+               "url": "#"
+            }
+         ]
+      },
+      {
+         "name": "ANGEMI Infrastrutture",
+         "address": "Via G.F. Ingrassia, 424",
+         "cap": "94017",
+         "city": "Regalbuto",
+         "province": "EN",
+         "phone": "02 484 00 00",
+         "fax": "02 484 00 00",
+         "email": "#",
+         "pec": "#",
+         "piva": "#",
+         "social": [
+            {
+               "name": "LinkedIn",
+               "url": "#"
+            },
+            {
+               "name": "Google Maps",
+               "url": "#"
+            }
+         ]
+      }
+   ],
+   "office": {
+      "opening_hours": "#",
+      "contacts": [
+         {
+            "name": "Amministrazione",
+            "head": "Giuseppe Angemi",
+            "email": "amministrazione@gruppoangemi.it"
+         },
+         {
+            "name": "Ufficio Contabilità",
+            "head": "Vito Picardi",
+            "email": "contabilita@gruppoangemi.it" 
+         },
+         {
+            "name": "Ufficio Appalti",
+            "head": "Gabriele Manfrè",
+            "email":[
+               {
+                  "company_name": "Impresa AN.SA",
+                  "email": "gare.ansa@gruppoangemi.it"
+               },
+               {
+                  "company_name": "ANGEMI Infrastrutture",
+                  "email": "gare.angemi@gruppoangemi.it"
+               }
+            ]
+         }
+      ]
+   }
+}
+

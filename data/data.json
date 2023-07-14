@@ -6,23 +6,24 @@
    "company": [
       {
          "name": "Impresa AN.SA",
-         "address": "Contrada Manche Saverino",
+         "address": "Contrada Manche Savarino",
          "cap": "94017",
          "city": "Regalbuto",
          "province": "EN",
-         "phone": "#",
+         "mobile-phone": "350 104 5475 / 333 155 9601",
          "fax": "#",
          "email": "#",
-         "pec": "pecaansa",
-         "piva": "pivansa",
+         "pec": "ansa@legalmail.it",
+         "piva": "00672560869",
          "social": [
             {
                "name": "LinkedIn",
-               "url": "#"
+               "url": "https://www.linkedin.com/company/impresa-an-sa"
             },
             {
                "name": "Google Maps",
-               "url": "#"
+               "url": "https://goo.gl/maps/QpigZmgYzcbB7Q8P8"
+               
             }
          ]
       },
@@ -32,19 +33,19 @@
          "cap": "94017",
          "city": "Regalbuto",
          "province": "EN",
-         "phone": "#",
+         "mobile-phone": "350 066 1623",
          "fax": "#",
          "email": "#",
-         "pec": "#",
-         "piva": "#",
+         "pec": "angemi.infrastrutture@pec.it",
+         "piva": "05818220872",
          "social": [
             {
                "name": "LinkedIn",
-               "url": "#"
+               "url": "https://www.linkedin.com/company/angemi-infrastrutture"
             },
             {
                "name": "Google Maps",
-               "url": "#"
+               "url": "https://goo.gl/maps/GsS2vN2rMZbSjLyV8"
             }
          ]
       }

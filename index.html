@@ -77,8 +77,8 @@
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@gruppoangemi.it">info@gruppoangemi.it</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:+3909351862291">0935 186 2291</a></i>  <!-- <span>0935 79585</span>  -->
+        <i class="bi bi-envelope d-flex align-items-center"><span class="group-email"></span></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span class="group-phone"></span></i>  <!-- <span>0935 79585</span>  -->
       </div>
       <div class="social-links d-none d-md-flex align-items-center">
         <!--a href="#" class="facebook"><i class="bi bi-facebook"></i></a-->
@@ -116,7 +116,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1>Edilizia, <span>infrastrutture</span></h1>
-      <h2>Due aziende siciliane</h2>
+      <h2>Impresa AN.SA & ANGEMI Infrastrutture</h2>
       <div class="d-flex">
         <a href="#contact" class="btn-get-started scrollto">Richiedi preventivo</a>
         <!--<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
@@ -485,7 +485,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@gruppoangemi.it">info@gruppoangemi.it</a></p>
+              <p><span class="group-email"></span></p>
             </div>
           </div>
 
@@ -493,7 +493,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Chiama</h3>
-              <p><a href="tel:+3909351862291">0935 186 2291</a></p>
+              <p><span class="group-phone"></span></p>
             </div>
           </div>
 
@@ -567,11 +567,20 @@
             <p>
               Via Gian Filippo Ingrassia, 424 <br>
               94017, Regalbuto (EN)<br>
-              Sicilia <br><br>
-              <strong>Phone: </strong>0935 186 2291<br>
-              <strong>Email: </strong>info@gruppoangemi.it<br>
-              <strong>PEC: </strong>angemi.infrastrutture@pec.it<br>
-              <strong>P.IVA: </strong>05818220872<br>
+              Sicilia <br>
+              <strong>Phone: </strong><span class="group-phone"></span><br>
+              <strong>Email: </strong><span class="group-email"></span><br><br>
+            </p>
+
+            <h4>Impresa AN.SA</h4>
+            <p>
+              <strong>PEC: </strong><span class="pec-ansa"></span><br>
+              <strong>P.IVA: </strong><span class="piva-ansa"></span><br><br>
+            </p>
+            <h4>ANGEMI Infrastrutture</h4>
+            <p>
+              <strong>PEC: </strong><span class="pec-infrastrutture"></span><br>
+              <strong>P.IVA: </strong><span class="piva-infrastrutture"></span><br>
             </p>
           </div>
 
@@ -646,6 +655,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Data reader JS File -->
+  <script src="assets/js/fetcher.js"></script>
 
 </body>
 

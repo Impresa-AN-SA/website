@@ -2,6 +2,7 @@
    "name": "Gruppo ANGEMI",
    "website": "https://gruppoangemi.it",
    "email": "info@gruppoangemi.it",
+   "phone": "0935 186 2291",
    "company": [
       {
          "name": "Impresa AN.SA",
@@ -12,8 +13,8 @@
          "phone": "#",
          "fax": "#",
          "email": "#",
-         "pec": "#",
-         "piva": "#",
+         "pec": "pecaansa",
+         "piva": "pivansa",
          "social": [
             {
                "name": "LinkedIn",
@@ -31,8 +32,8 @@
          "cap": "94017",
          "city": "Regalbuto",
          "province": "EN",
-         "phone": "02 484 00 00",
-         "fax": "02 484 00 00",
+         "phone": "#",
+         "fax": "#",
          "email": "#",
          "pec": "#",
          "piva": "#",

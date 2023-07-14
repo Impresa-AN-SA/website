@@ -38,35 +38,35 @@ fetch(jsonFile)
   .then(response => response.json())
   .then(data =>
       {
-         // Utilizza la variabile 'data' come desideri
-         // console.log(data);
+        // Popolo indirizzo
+        replaceInnerHTMLByClass("group-office-address",`${data.company[infrastruttureElementNumber].address}, ${data.company[infrastruttureElementNumber].cap}<br>${data.company[infrastruttureElementNumber].city} (${data.company[infrastruttureElementNumber].province})`);
 
-         // Popolo email gruppo come link
-         replaceInnerHTMLByClass("group-email",`<a href="mailto:${data.email}">${data.email}</a>`);
-          
-         // Usa la funzione pupolatePhoneNumberByClass per popolare i numeri di telefono
-         populatePhoneNumberByClass("group-phone",data.phone);
-         populatePhoneNumberByClass("mobile-infrastrutture", data.company[infrastruttureElementNumber]['mobile-phone']);
-         populatePhoneNumberByClass("mobile-ansa",data.company[ansaElementNumber]['mobile-phone']);
+        // Popolo email gruppo come link
+        replaceInnerHTMLByClass("group-email",`<a href="mailto:${data.email}">${data.email}</a>`);
+        
+        // Usa la funzione pupolatePhoneNumberByClass per popolare i numeri di telefono
+        populatePhoneNumberByClass("group-phone",data.phone);
+        populatePhoneNumberByClass("mobile-infrastrutture", data.company[infrastruttureElementNumber]['mobile-phone']);
+        populatePhoneNumberByClass("mobile-ansa",data.company[ansaElementNumber]['mobile-phone']);
 
-         // Popola PEC ANSA con 
-         replaceInnerHTMLByClass("pec-ansa",data.company[ansaElementNumber].pec);
+        // Popola PEC ANSA con 
+        replaceInnerHTMLByClass("pec-ansa",data.company[ansaElementNumber].pec);
 
-         // Popola PIVA ANSA
-         replaceInnerHTMLByClass("piva-ansa",data.company[ansaElementNumber].piva);
+        // Popola PIVA ANSA
+        replaceInnerHTMLByClass("piva-ansa",data.company[ansaElementNumber].piva);
 
-         // Popola PEC Infrastrutture
-         replaceInnerHTMLByClass("pec-infrastrutture",data.company[infrastruttureElementNumber].pec);
+        // Popola PEC Infrastrutture
+        replaceInnerHTMLByClass("pec-infrastrutture",data.company[infrastruttureElementNumber].pec);
 
-         // Popola PIVA Infrastrutture
-         replaceInnerHTMLByClass("piva-infrastrutture",data.company[infrastruttureElementNumber].piva);
+        // Popola PIVA Infrastrutture
+        replaceInnerHTMLByClass("piva-infrastrutture",data.company[infrastruttureElementNumber].piva);
 
-         // Social: aggiungo href a tutti gli elementi con classe "group-github"
-         addHrefByClass("group-github",`https://github.com/${data.github_organization}`);
-         addHrefByClass("li-ansa",data.company[ansaElementNumber].social[linkedinElementNumber].url);
-         addHrefByClass("li-infrastrutture",data.company[infrastruttureElementNumber].social[linkedinElementNumber].url);
-         addHrefByClass("maps-ansa",data.company[ansaElementNumber].social[mapsElementNumber].url);
-         addHrefByClass("maps-infrastrutture",data.company[infrastruttureElementNumber].social[mapsElementNumber].url);
+        // Social: aggiungo href a tutti gli elementi con classe "group-github"
+        addHrefByClass("group-github",`https://github.com/${data.github_organization}`);
+        addHrefByClass("li-ansa",data.company[ansaElementNumber].social[linkedinElementNumber].url);
+        addHrefByClass("li-infrastrutture",data.company[infrastruttureElementNumber].social[linkedinElementNumber].url);
+        addHrefByClass("maps-ansa",data.company[ansaElementNumber].social[mapsElementNumber].url);
+        addHrefByClass("maps-infrastrutture",data.company[infrastruttureElementNumber].social[mapsElementNumber].url);
       })
   .catch(error => {
     console.error('Errore durante il recupero del file JSON:', error);
